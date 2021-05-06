@@ -18,7 +18,7 @@ name: "El Laggron"
 description: >-
   A full Discord bot for managing your server and organizing tournaments.
 url: https://atos.laggron.red
-baseurl: "/en"
+baseurl: "/"
 repository: retke/ATOSDocs-en
 search: true
 search_full_content: true
