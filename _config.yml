@@ -1,0 +1,144 @@
+# Welcome to Jekyll!
+#
+# This config file is meant for settings that affect your whole blog, values
+# which you are expected to set up once and rarely edit after that. If you find
+# yourself editing this file very often, consider using Jekyll's data files
+# feature for the data you need to update frequently.
+
+# theme: minimal-mistakes-jekyll
+remote_theme: "mmistakes/minimal-mistakes"
+minimal_mistakes_skin: "dark"
+
+# Site settings
+locale: "en-US"
+title: A.T.O.S.
+title_separator: "-"
+subtitle: Automated Tournament Organizer for Smash
+name: "El Laggron"
+description: >-
+  A full Discord bot for managing your server and organizing tournaments.
+url: https://atos.laggron.red
+baseurl: "/en"
+repository: retke/ATOSDocs-en
+search: true
+search_full_content: true
+search_provider: algolia
+algolia:
+  application_id: AGWM0E6USE
+  index_name: atos
+  search_only_api_key: 75af6077e4eaf8fcfd171e462cedf505
+  powered_by: true
+
+# Analytics
+analytics:
+  provider: "google-universal" # false (default), "google", "google-universal", "google-gtag", "custom"
+  google:
+    tracking_id: "UA-181005502-1" # Replace this with your ID, or delete
+
+# author info
+twitter_username: laggron42
+github_username: retke
+
+author:
+  name: "El Laggron"
+  avatar: "/assets/images/spyro.jpg"
+  bio: "Laggron, Smash player, streamer and Discord bot developer"
+  links:
+    - label: "Discord"
+      icon: "fab fa-fw fa-discord"
+      url: "https://discord.gg/DC6zCsZ"
+    - label: "Twitch"
+      icon: "fab fa-fw fa-twitch"
+      url: "https://twitch.tv/el_laggron"
+    - label: "Twitter"
+      icon: "fab fa-fw fa-twitter-square"
+      url: "https://twitter.com/laggron42"
+    - label: "GitHub repo"
+      icon: "fab fa-fw fa-github"
+      url: "https://github.com/retke/Laggrons-Dumb-Cogs"
+
+# footer
+footer:
+  links:
+    - label: "Discord"
+      icon: "fab fa-fw fa-discord"
+      url: "https://discord.gg/DC6zCsZ"
+    - label: "Twitch"
+      icon: "fab fa-fw fa-twitch"
+      url: "https://twitch.tv/el_laggron"
+    - label: "Twitter"
+      icon: "fab fa-fw fa-twitter-square"
+      url: "https://twitter.com/"
+    - label: "Repo GitHub"
+      icon: "fab fa-fw fa-github"
+      url: "https://github.com/retke/Laggrons-Dumb-Cogs"
+
+defaults:
+  # _posts
+  - scope:
+      path: "_posts"
+      type: posts
+    values:
+      layout: single
+      author_profile: true
+      read_time: true
+      share: true
+  # _pages
+  - scope:
+      path: ""
+      type: pages
+    values:
+      layout: single
+      author_profile: true
+  # _docs
+  - scope:
+      path: "_docs"
+      type: docs
+    values:
+      layout: single
+      read_time: false
+      author_profile: false
+      share: false
+      comments: false
+      toc: true
+      toc_sticky: true
+      sidebar:
+        - nav: "docs"
+        - title: "Need help ?"
+          text: >-
+            Ask your questions, send your suggestions or report bugs :
+            [![widget](https://discord.com/api/guilds/705122849756545064/widget.png?style=banner3)](https://discord.gg/DC6zCsZ)
+
+# Collections
+collections:
+  docs:
+    output: true
+    permalink: /:collection/:path/
+include:
+  - "_pages"
+
+category_archive:
+  type: liquid
+  path: /categories/
+tag_archive:
+  type: liquid
+  path: /tags/
+
+# Build settings
+markdown: kramdown
+kramdown:
+  toc_levels: 1..6
+# Outputting
+permalink: /:categories/:title/
+# paginate: 10 # amount of posts to show
+# paginate_path: /posts/page:num/
+timezone: Europe/Paris
+
+# Plugins (previously gems:)
+plugins:
+  - jekyll-paginate
+  - jekyll-sitemap
+  - jekyll-gist
+  - jekyll-feed
+  - jemoji
+  - jekyll-include-cache

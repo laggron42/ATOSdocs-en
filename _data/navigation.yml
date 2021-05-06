@@ -1,0 +1,57 @@
+main:
+  - title: Add A.T.O.S.
+    url: /install-red/
+  - title: Docs
+    url: /index/
+  - title: Posts
+    url: /posts/
+  - title: Red-DiscordBot
+    url: /what-is-red/
+  - title: About
+    url: /about/
+
+docs:
+  - title: Installation and setup
+    children:
+      - title: Installation
+        url: /install-red/
+      - title: Tournaments setup
+        url: /config-tournaments/
+      - title: Manage multiple configurations
+        url: /config-manager/
+  - title: Configure a tournament
+    children:
+      - title: Registrations and check-in
+        url: /register-checkin-setup/
+      - title: Seeding and upload
+        url: /seeding-upload/
+      - title: Creation of a Challonge tournament
+        url: /challonge-setup/
+      - title: Setup of the tournament on A.T.O.S.
+        url: /tournament-setup/
+  - title: Course of the tournament
+    children:
+      - title: Launch of the tournament
+        url: /tournament-start/
+      - title: Automated actions (background task)
+        url: /background-loop-task/
+      - title: Commands
+        url: /commands/
+      - title: Scores and bracket
+        url: /scores-bracket/
+      - title: Streams
+        url: /streams/
+      - title: End of the tournament (+ pub)
+        url: /tournament-end/
+  - title: Various
+    children:
+      - title: What to do in case of bugs
+        url: /troubleshooting/
+      - title: Customized permissions
+        url: /permissions/
+      - title: Command list
+        url: /command-list/
+      - title: Host the bot (Red)
+        url: /what-is-red/
+      - title: About
+        url: /about/
