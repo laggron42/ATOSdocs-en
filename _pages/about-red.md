@@ -13,7 +13,7 @@ header:
 author_profile: true
 classes: wide
 excerpt: >
-  A.T.O.S. est une instance de Red-DiscordBot, un bot modulaire open-source, accessible à tous !
+  A.T.O.S. is an instance of Red-DiscordBot, a modular open-source bot, open to everyone!
 ---
 
 ## What is Red bot?

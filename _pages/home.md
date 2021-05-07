@@ -7,7 +7,7 @@ header:
   overlay_filter: 0.3
   overlay_image: /assets/images/homepage.png
   actions:
-    - label: "<i class='fas fa-download'></i> Installer maintenant"
+    - label: "<i class='fas fa-download'></i> Install now"
       url: "/install-red/"
 excerpt: >
   A Discord bot for organizing your Challonge tournaments directly on Discord!

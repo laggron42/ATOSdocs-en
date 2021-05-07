@@ -41,7 +41,7 @@ docs:
         url: /scores-bracket/
       - title: Streams
         url: /streams/
-      - title: End of the tournament (+ pub)
+      - title: End of the tournament (+ ads)
         url: /tournament-end/
   - title: Various
     children:

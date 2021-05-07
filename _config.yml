@@ -69,7 +69,7 @@ footer:
     - label: "Twitter"
       icon: "fab fa-fw fa-twitter-square"
       url: "https://twitter.com/"
-    - label: "Repo GitHub"
+    - label: "GitHub repo"
       icon: "fab fa-fw fa-github"
       url: "https://github.com/retke/Laggrons-Dumb-Cogs"
 

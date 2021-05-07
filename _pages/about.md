@@ -1,6 +1,6 @@
 ---
 permalink: /about/
-title: "À propos"
+title: "About"
 classes: wide
 authors:
 - El Laggron
