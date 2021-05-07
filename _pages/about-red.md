@@ -24,7 +24,7 @@ It is entirely customizable, not only can you change the name, profile picture, 
 
 By installing Red, you have about 20 available modules that you can load or not, as you wish. Therefore you can decide to enable audio and moderation tools, while keeping what you don't need unloaded.
 
-### Les modules communautaires
+### Community modules
 
 In addition to the core modules, there is a great community making additional modules, easily installable, in order to extend even more your bot's capabilities as you need!
 
