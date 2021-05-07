@@ -6,9 +6,9 @@ header:
   overlay_color: "#5e616c"
   overlay_image: assets/images/redbot-header.png
   overlay_filter: 0.3
-  caption: "Artwork de [Sinlaire](https://sinlaire.deviantart.com/) pour Red Discord Bot"
+  caption: "Artwork by [Sinlaire](https://sinlaire.deviantart.com/) for Red Discord Bot"
   actions:
-    - label: "<i class='fas fa-info-circle'></i> En savoir plus"
+    - label: "<i class='fas fa-info-circle'></i> See more"
       url: "https://github.com/Cog-Creators/Red-DiscordBot/"
 author_profile: true
 classes: wide
